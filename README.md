@@ -9,3 +9,4 @@ This file contains the code for performing transfer learning using the Inception
 
 ## 4. Prepare_the_Dataset.ipynb
 This file includes the program used to prepare the dataset for transfer learning, including the manual data augmentation process.
+Link for The DataSet: https://drive.google.com/drive/folders/1R3Y-pngbgkcoCpI030x3YNMgEVFcEA5p?usp=sharing
