@@ -11,3 +11,5 @@ This file contains the code for performing transfer learning using the Inception
 This file includes the program used to prepare the dataset for transfer learning, including the manual data augmentation process.
 
 Link for The DataSet: https://drive.google.com/file/d/1QefY85Lj6QXeiuUAP9iqT7vGkDrDu19I/view?usp=sharing
+
+**NOTE: V2 means data with 20 classes and V1 means dataset with 10 classes
