@@ -7,7 +7,7 @@ This file contains the code for performing transfer learning using the MobileNet
 ## 3. Batik Recognition_Augmentation_V1_Auto_InceptionV3.ipynb
 This file contains the code for performing transfer learning using the InceptionV3 model on a dataset without manual data augmentation. Only automatic augmentation is applied during each epoch.
 
-## 4. PreParing_the_Dataset.ipynb
+## 4. PreParing_Dataset_Classes_20.ipynb
 This file includes the program used to prepare the dataset for transfer learning, including the manual data augmentation process.
 
 Link for The DataSet: https://drive.google.com/file/d/1QefY85Lj6QXeiuUAP9iqT7vGkDrDu19I/view?usp=sharing
