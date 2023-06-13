@@ -28,11 +28,12 @@ class_labels = [
 ]
 
 # Load the trained model
-model = tf.keras.models.load_model('/content/drive/MyDrive/Capstone Project/Model_Predict/batik_model.h5', 
+model = tf.keras.models.load_model('./batik_model.h5',
                                    custom_objects={'KerasLayer': hub.KerasLayer})
 
-def predict(image_path):
-    img = image.load_img(image_path, target_size=(224, 224))
+
+def predict(img):
+    img = img.resize((224, 224))
     img = img.convert('RGB')
     x = image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
@@ -43,10 +44,11 @@ def predict(image_path):
     confidence = np.max(predictions[0])
     return predicted_class_label, confidence
 
+
 # Path to the image want to predict
-image_path = '/content/drive/MyDrive/Capstone Project/Model_Predict/78.jpg'
+# image_path = '/content/drive/MyDrive/Capstone Project/Model_Predict/78.jpg'
 
 # Make a prediction
-predicted_class, confidence = predict(image_path)
-print('Predicted class:', predicted_class)
-print('Confidence:', confidence)
+# predicted_class, confidence = predict(image_path)
+# print('Predicted class:', predicted_class)
+# print('Confidence:', confidence)
