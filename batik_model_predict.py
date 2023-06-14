@@ -15,7 +15,7 @@ from tensorflow.keras.preprocessing import image
 
 # Define the class labels
 class_labels = [
-    'Batik Dencrawasih',
+    'Batik Cendrawasih',
     'Batik Dayak',
     'Batik Ikat Celup',
     'Batik Insang',
